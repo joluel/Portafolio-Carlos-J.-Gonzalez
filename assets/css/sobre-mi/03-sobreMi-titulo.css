@@ -1,0 +1,15 @@
+.sobreMi__titulo {
+    width: 60%;
+    margin-top: 3rem;
+    margin-left: 5%;
+    color: #464646;
+}
+
+@media screen and (max-width: 378px) {
+    .sobreMi__titulo{
+        width: 98%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+}

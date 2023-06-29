@@ -1,0 +1,12 @@
+.formulario__label{
+    display: block;
+    width: 90%;
+    padding: .5rem;
+    background-color: white;
+    font-size: 12px;
+}
+
+.email {
+    color: rgba(42, 122, 228, 1);
+    font-weight: 400;
+}

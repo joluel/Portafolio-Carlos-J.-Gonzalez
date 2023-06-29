@@ -1,0 +1,9 @@
+.menu {
+    display: flex;
+}
+
+@media screen and (max-width: 378px) {
+    .menu {
+        flex-direction: column;
+    }
+}

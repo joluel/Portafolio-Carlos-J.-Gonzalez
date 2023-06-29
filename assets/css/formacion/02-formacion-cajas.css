@@ -1,0 +1,33 @@
+.formacion__cajas {
+    width: 150px;
+    height: 150px;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    border: 2px solid black;
+}
+
+.formacion__cajas img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+    .formacion__cajas{
+        /* display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 80%; */
+        margin-bottom: 150px;
+    }    
+}
+
+@media screen and (max-width: 378px) {
+    .formacion__cajas{
+        margin-bottom: 150px;
+    }    
+}
+
+

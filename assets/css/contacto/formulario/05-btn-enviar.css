@@ -1,0 +1,30 @@
+.btn__enviar {
+    position: relative;
+    top: 50px;
+    left: -15px;
+}
+
+@media screen and (max-width:1023px) {
+    .btn__enviar {
+        position: relative;
+        top: 15px;
+        left: -15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .btn__enviar {
+        position: relative;
+        top: 15px;
+        left: -15px;
+    }
+}
+
+
+@media screen and (max-width:378px) {
+    .btn__enviar {
+        position: relative;
+        top: 15px;
+        left: -15px;
+    }
+}

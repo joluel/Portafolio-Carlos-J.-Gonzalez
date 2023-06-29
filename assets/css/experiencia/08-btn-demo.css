@@ -1,0 +1,15 @@
+.btn__demo {
+    width: 116px;
+    height: 51px;
+    margin-left: 3%;
+    background-color: rgba(42, 122, 228, 1);
+    border: none;
+    cursor: pointer;
+}
+
+.btn__demo a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+
+}

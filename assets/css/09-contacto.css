@@ -1,0 +1,11 @@
+.contacto {
+    width: 97.5%;
+    padding: 1rem;    
+    background-color: rgba(234, 242, 253, 1);
+}
+
+@media screen and (max-width:378px) {
+    .contacto {
+        width: 89%;
+    }
+}

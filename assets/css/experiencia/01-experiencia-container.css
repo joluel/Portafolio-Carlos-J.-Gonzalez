@@ -1,0 +1,36 @@
+.experiencia__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1023px) {
+    .experiencia__container{
+        flex-direction: column;
+    }
+    
+    .netflix__container {
+        flex-direction: column-reverse;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .experiencia__container{
+        flex-direction: column;
+    }
+    
+    .netflix__container {
+        flex-direction: column-reverse;
+    }    
+}
+
+@media screen and (max-width: 378px) {
+    .experiencia__container{
+        flex-direction: column;
+    }
+
+    .netflix__container {
+        flex-direction: column-reverse;
+    }    
+}

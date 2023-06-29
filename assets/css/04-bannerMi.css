@@ -1,0 +1,60 @@
+.banner__mi {
+    display: flex;
+    width: 100%;
+    height: 65vh;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    background-image: url(../img/emile-perron-xrVDYZRGdw4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: black;
+    filter: brightness(80%);
+}
+
+.izquierda {
+    display: block;
+    align-self:baseline;
+    align-items: center;
+    width: 62%;
+}
+
+.derecha {
+    width: 35%;
+}
+
+.derecha img {
+    width: 50%;
+    height: 30vh;
+    margin-left: 20%;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+    .izquierda {
+        width: 70%;
+        height: 30vh;
+        text-align: center;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .izquierda {
+        width: 70%;
+        text-align: center;
+    }    
+}
+
+@media screen and (max-width: 378px) {
+    .izquierda {
+        width: 100%;
+        height: 90vh;
+    }    
+    
+    .banner__mi {
+        width: 90%;
+        height: 90vh;
+    }
+}

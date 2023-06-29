@@ -1,0 +1,13 @@
+.experiencia {
+    width: 100%;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 378px) {
+    .experiencia{
+        width: 99%;
+        margin: 0 auto;
+        padding: 10rem 0 5rem 0;
+    }
+    
+}

@@ -1,0 +1,10 @@
+.contacto__formulario {
+    width: 60%;
+}
+
+@media screen and (max-width:378px) {
+    .contacto__formulario {
+        width: 90%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,15 @@
+.sobreMi__parrafo2 {
+    width: 60%;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+@media screen and (max-width: 378px) {
+    .sobreMi__parrafo2{
+        width: 70%;
+        margin: 0 auto;
+        padding: 3rem 0;
+        text-align: justify;
+    }
+    
+}

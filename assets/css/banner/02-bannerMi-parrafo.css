@@ -1,0 +1,32 @@
+.bannerMi__parrafo {
+    width: 80%;
+    font-size: 22px;
+    line-height: 22.83px;
+    text-align: justify;
+    margin: 6rem 3rem 6rem 0;
+    color: white;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+    .bannerMi__parrafo{
+        width: 70%;
+        margin: 6rem 3rem 3rem 0;
+        padding: 1rem 1rem 3rem 1rem;
+        font-weight: 600;
+        text-align: justify;
+        font-size: 26px;
+        line-height: 30px;
+    }    
+}
+
+@media screen and (max-width: 378px) {
+    .bannerMi__parrafo{
+        width: 70%;
+        margin: .5rem;
+        padding: 1rem 1rem;
+        text-align: justify;
+        font-size: 15px;
+    }    
+}

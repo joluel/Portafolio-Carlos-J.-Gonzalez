@@ -1,0 +1,76 @@
+.experiencia__video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: rgb(220,220,220);
+    border-radius: 1rem;
+}
+
+.experiencia__video video {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.netflix {
+    padding: 1rem;
+    background-color: white;
+}
+
+.netflix img {
+    width: 90%;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 1023px) {
+    .experiencia__video{
+        width: 85%;
+        margin-left:3% ;
+        text-align: center;
+    }
+
+    .experiencia__video video {
+        width: 70vw;
+        height: 40vh;
+        margin: 0 auto;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .experiencia__video{
+        width: 85%;
+        margin-left:3% ;
+        text-align: center;
+    }
+
+    .experiencia__video video {
+        width: 80vw;
+        height: 40vh;
+        margin: 0 auto;
+    }    
+}
+
+    @media screen and (max-width: 378px) {
+        .experiencia__video{
+            width: 95%;
+        }
+    
+        .experiencia__video video {
+            width: 80vw;
+            height: 40vh;
+            margin: 0 auto;
+        }    
+        
+        .netflix{
+            width: 80vw;
+            height: 40vh;
+            margin: 0 auto;
+        }
+
+        .netflix img {
+            width: 90%;
+            height: 40vh;
+            border-radius: 1rem;
+        }
+    }

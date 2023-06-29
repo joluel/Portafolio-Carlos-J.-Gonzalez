@@ -1,0 +1,30 @@
+.btn__subir{
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid  rgba(42, 122, 228, 1);;
+    border-radius: 30%;
+    scroll-behavior: smooth;
+    opacity: .3;
+    transition: .5s ease-in-out;
+}
+
+.btn__subir:hover {
+    opacity: 1;
+    border: 2px solid black;
+    background-color:  rgba(42, 122, 228, 1);;
+    box-shadow: 5px 5px 10px black;
+}
+
+.btn__subir img {
+    width: 100%;
+}
+
+@media screen and (max-width:378px) {
+    .btn__subir {
+        display: none;
+    }    
+}
+

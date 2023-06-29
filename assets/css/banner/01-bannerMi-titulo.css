@@ -1,0 +1,24 @@
+.bannerMi__titulo {
+    width: 70%;
+    font-size: 52px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .bannerMi__titulo{
+        width:90%;
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 25px;
+    }    
+}
+
+@media screen and (max-width: 378px) {
+.bannerMi__titulo{
+        width:70%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 20px;
+    }    
+}

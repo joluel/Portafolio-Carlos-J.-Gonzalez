@@ -1,0 +1,39 @@
+.bannerMi__link {
+    text-decoration: none;
+    padding: 0 2.5rem 0 2rem;
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+.bannerMi__link:hover{
+    transform: scale(1.1);
+    background-color: rgba(42, 122, 228, 1);
+    border-radius: 2rem;
+}
+
+.bannerMi__link img {
+    background-color: white;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 378px) {
+    .bannerMi__link{
+        display: block;
+        justify-content: center;
+        width: 80%;
+        margin: 10px 0;
+        text-align: center;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .bannerMi__link{
+        display: flex;
+        width: 80%;
+        margin: 10px 0;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }    
+}

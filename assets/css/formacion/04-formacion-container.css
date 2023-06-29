@@ -1,0 +1,32 @@
+.formacion__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .formacion__container{
+        width: 80%;
+        margin: 0 auto;
+    }    
+}
+
+
+@media screen and (max-width: 768px) {
+    .formacion__container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: space-between;
+        width: 70%;
+        height: 60vh;
+        margin: 0 auto;
+    }    
+}
+
+@media screen and (max-width: 378px) {
+    .formacion__container{
+        display: block;
+        flex-direction: column;
+    }    
+}

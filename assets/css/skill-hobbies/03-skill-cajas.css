@@ -1,0 +1,32 @@
+.skill__cajas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .skill__cajas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .skill__cajas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+    }    
+}
+
+
+@media screen and (max-width: 378px) {
+    .skill__cajas{
+        flex-direction: column;
+    }    
+}

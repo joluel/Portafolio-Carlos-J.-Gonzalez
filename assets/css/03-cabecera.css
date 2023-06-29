@@ -1,0 +1,49 @@
+html {
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 99%;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;align-items: center;
+    padding: 0 2rem;
+    height: 88px;
+}
+
+@media screen and (max-width: 1023px) {
+    .cabecera{
+        flex-direction: column;
+        margin: 40px 0 80px 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cabecera{
+        flex-direction: column;
+        margin: 40px 0 80px 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    body {
+        width: 90%;   
+        border: 2px solid black;
+    }
+
+    .cabecera{
+        flex-direction: column;
+        margin: 40px 0 300px 0;
+        text-align: center;
+        border: 2px solid blue;
+    }
+}

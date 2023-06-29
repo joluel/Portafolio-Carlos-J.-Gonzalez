@@ -1,0 +1,45 @@
+.hobbies__caja {
+    display: flex;
+    justify-content: flex-start;   
+    align-items: end; 
+    padding: 1rem;
+    width: 160px;
+    height: 160px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px black;
+    transition: .5s ease-in-out;
+}
+
+.hobbies__caja:hover {
+    transform: scale(1.1);
+    background-color: rgba(42, 122, 228, 1);
+}
+
+.games {
+    background-image: url(../../icons/video-games-joystick-svgrepo-com.svg);
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gym {
+    background-image: url(../../icons/gym-svgrepo-com.svg);
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.series {
+    background-image: url(../../icons/netflix-1-logo-svgrepo-com.svg);
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 378px) {
+    .hobbies__caja{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    
+}

@@ -1,0 +1,7 @@
+.formulario__input {
+    display: block;
+    width: 90%;
+    padding: .5rem;
+    margin-bottom: 10px;
+    border: none;
+}

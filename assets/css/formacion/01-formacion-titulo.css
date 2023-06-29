@@ -1,0 +1,10 @@
+.formacion__titulo {
+    text-align: center;
+    padding: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .formacion__titulo{
+        padding: 2rem 0 1rem 0;        
+    }    
+}

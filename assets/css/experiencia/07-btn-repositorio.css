@@ -1,0 +1,11 @@
+.btn__repositorio {
+    width: 116px;
+    height: 51px;
+    border: 1px solid rgba(42, 122, 228, 1);
+    cursor: pointer;
+}
+
+.btn__repositorio a {
+    text-decoration: none;
+    color: rgba(42, 122, 228, 1);
+}

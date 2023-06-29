@@ -1,0 +1,27 @@
+.menu__link {
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.menu__link:hover {
+    font-weight: 700;
+    color: rgba(42, 122, 228, 1);
+    /* text-decoration: underline; */
+}
+
+.negrita {
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .menu__link a{
+        margin: 25px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .menu__link a{
+        margin: 25px;
+    }
+} 

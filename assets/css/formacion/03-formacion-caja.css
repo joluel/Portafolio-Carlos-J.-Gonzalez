@@ -1,0 +1,39 @@
+
+.sena {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.alura {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.google {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.udemy {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+} 
+
+@media screen and (max-width: 768px) {
+    .skill__caja{
+        width: 40%;
+        margin-bottom: 20px;
+    }    
+}
+
+@media screen and (max-width: 378px) {
+    .skill__caja{
+        width: 40%;
+        margin-bottom: 20px;
+    }    
+}

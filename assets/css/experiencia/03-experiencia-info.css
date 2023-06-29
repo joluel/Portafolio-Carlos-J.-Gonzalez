@@ -1,0 +1,32 @@
+.experiencia__info {
+    width: 360px;
+    height: 212px;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 1023px) {
+    .experiencia__info{
+        width: 90%;
+        height: 40%;
+        text-align: center;
+        margin: 1px;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .experiencia__info{
+        width: 90%;
+        height: 40%;
+        text-align: center;
+        margin: 1px;
+    }    
+}
+
+@media screen and (max-width: 378px) {
+    .experiencia__info{
+        width: 90%;
+        text-align: center;
+        margin: 1px;
+    }    
+}

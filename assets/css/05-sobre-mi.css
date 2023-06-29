@@ -1,0 +1,15 @@
+.sobre__mi {
+    width: 99%;
+    display: block;
+    padding: 4rem .35rem;
+    background-color: #EAF2FD ;
+}
+
+@media screen and (max-width: 378px) {
+    .sobre__mi{
+        width: 96%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+}

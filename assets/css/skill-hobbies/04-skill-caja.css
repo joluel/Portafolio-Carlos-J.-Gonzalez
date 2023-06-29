@@ -1,0 +1,85 @@
+.skill__caja {
+    display: flex;
+    justify-content: flex-start;   
+    align-items: end; 
+    padding: 1rem;
+    width: 160px;
+    height: 160px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px black;
+    transition: .5s ease-in-out;
+}
+
+.skill__caja:hover {
+    transform: scale(1.1);
+}
+
+.html5 {
+    background-image: url(../../icons/developer/html-5-svgrepo-com.svg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.html5:hover{
+    background-color: orangered;
+}
+
+.css3 {
+    background-image: url(../../icons/developer/css-3-svgrepo-com.svg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.css3:hover{
+    background-color: rgba(42, 122, 228, 1);
+}
+
+.javascript {
+    background-image: url(../../icons/developer/javascript-svgrepo-com.svg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.javascript:hover{
+    background-color: yellow;
+}
+
+.react {
+    background-image: url(../../icons/developer/react-svgrepo-com.svg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.react:hover{
+    background-color: rgb(3, 165, 240);
+}
+
+.git {
+    background-image: url(../../icons/developer/git-svgrepo-com.svg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.git:hover{
+    background-color: orangered;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .skill__caja{
+        width: 40%;
+        margin-bottom: 20px;
+    }    
+}
+
+@media screen and (max-width: 378px) {
+    .skill__caja{
+        width: 40%;
+        margin-bottom: 20px;
+    }    
+}
